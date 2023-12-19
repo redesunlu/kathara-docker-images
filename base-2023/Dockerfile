@@ -2,7 +2,6 @@ FROM kathara/quagga
 ARG DEBIAN_FRONTEND="noninteractive"
 RUN apt update
 RUN apt upgrade -y
-RUN apt install -y quagga
 
 RUN apt install -y \
 	exim4 \
@@ -10,7 +9,7 @@ RUN apt install -y \
 	iptables \
 	xinetd \
 	dovecot-pop3d \
-	squid3 \
+	squid \
 	lynx \
 	telnetd \
 	apache2 \

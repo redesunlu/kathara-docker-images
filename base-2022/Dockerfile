@@ -11,7 +11,7 @@ RUN apt-get install -y \
 	iptables \
 	xinetd \
 	dovecot-pop3d \
-	squid3 \
+	squid \
 	lynx \
 	telnetd \
 	alpine \
