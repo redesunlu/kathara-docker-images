@@ -1,5 +1,5 @@
 BUILDX=docker buildx build --platform linux/amd64,linux/arm64
-DOCKER_USERNAME ?= fernandezm
+DOCKER_USERNAME ?= docentetyr
 #APPLICATION_NAME ?= hello-world
 
 .PHONY: base-2022 base-2023
