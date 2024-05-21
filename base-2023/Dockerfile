@@ -15,6 +15,7 @@ RUN apt install -y \
 	apache2 \
 	radvd \
 	alpine \
+	w3m \
 	&& rm -rf /var/lib/apt/lists/*
  #RUN     echo root:malware | chpasswd && \
  #	echo "# default: on \n \
