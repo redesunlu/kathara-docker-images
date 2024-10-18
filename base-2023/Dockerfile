@@ -4,18 +4,19 @@ RUN apt update
 RUN apt upgrade -y
 
 RUN apt install -y \
-	exim4 \
-	tshark \
-	iptables \
-	xinetd \
-	dovecot-pop3d \
-	squid \
-	lynx \
-	telnetd \
-	apache2 \
-	radvd \
 	alpine \
+	apache2 \
+	dovecot-pop3d \
+	exim4 \
+	iptables \
+	lynx \
+	nmap \
+	radvd \
+	squid \
+	telnetd \
+	tshark \
 	w3m \
+	xinetd \
 	&& rm -rf /var/lib/apt/lists/*
  #RUN     echo root:malware | chpasswd && \
  #	echo "# default: on \n \
